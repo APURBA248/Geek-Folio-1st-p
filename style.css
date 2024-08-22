@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  color: white;
+  background-color: grey;
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  width: 100px;
+}
+.menus {
+  display: flex;
+  list-style: none;
+}
+.item {
+  margin-right: 20px;
+  cursor: pointer;
+  
+}
+.item:hover {
+  color: aqua;
+  border: 1px solid white;
+}
+.banner-container {
+  display: flex;
+  color: white;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, rgb(43, 42, 42), rgb(70, 69, 69));
+}
+.banner-img {
+  width: 600px;
+}
+.title {
+  font-size: 60px;
+  font: bold;
+}
+.text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.banner-container-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec-title-2{
+    font-size: 50px;
+    font:bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner-img-2{
+    width: 500px;
+}
+.box{
+    width: 250px;
+    height: 280px;
+    box-shadow: 4px 4px 150px gray;
+    background-color: black;
+    text-align: center;
+    border-radius: 3px;
+}
+.icon{
+    width: 80px;
+    padding: 10px;
+}
+.btn2{
+    background-color: gray;
+    margin-top: 10px;
+}
+.services-container{
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(8, 8, 8), rgb(51, 50, 50));
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.foot{
+    text-align: center;
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    color: white;
+
+}
+hr{
+    width: 50%;
+    margin:  auto;
+}
+
+
+
